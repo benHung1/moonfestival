@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#signInBtn {
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  background: orange;
+}
+
+#alreadySignInBtn {
+  padding: 20px;
+  display: none;
+  margin: 0 auto;
+  background: gray;
+  pointer-events: none;
+}
+
+#list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+#list > li {
+  background: aqua;
+}

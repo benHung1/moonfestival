@@ -1,0 +1,22 @@
+.trunTableContainer {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#my-lucky {
+  margin-top: 30px;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 9;
+}
+
+.turntableFoot {
+  z-index: -9;
+  position: absolute;
+  bottom: -20%;
+  /* right: 0; */
+}
